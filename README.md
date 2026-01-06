@@ -66,7 +66,7 @@
 - **Límite gratuito:** Créditos iniciales incluidos
 - **Documentación:** [OpenAI Codex](https://platform.openai.com/docs/guides/code)
 
-## 🚀 Proyecto: Eliana Méndez - Business Assistant AI
+## 🚀 Proyecto: Software Engineering a Business Assistant AI app
 
 ### Arquitectura de 3 Objetivos Principales
 
@@ -91,22 +91,9 @@
 - **Deepgram:** Procesamiento de meditaciones y prácticas vocales
 
 ### Flujo de Implementación
-
-```mermaid
-flowchart LR
-    A[Input Usuario] --> B[GPT-4o: Plan Mental]
-    A --> C[Claude 3: Análisis Emocional]
-    A --> D[Llama 3: Reflexión Espiritual]
-    B --> E[Dashboard Integrado]
-    C --> E
-    D --> E
-    E --> F[Recordatorios SMS]
-    F --> G[Feedback con Hugging Face]
-```
-
 ### Consideraciones Técnicas
 
-1. **Optimización de Costos:** Priorizar APIs con mayores límites gratuitos
+1. **Optimización de Costos:** Priorizar APIs con mayores límites gratuitos para la Fase de Desarrollo
 2. **Arquitectura Híbrida:** Combinar APIs cloud con modelos locales (Ollama + Llama)
 3. **UX/UI:** Diseño conversacional intuitivo sin abrumar al usuario
 4. **Feedback Loop:** Sistema de aprendizaje continuo basado en interacciones
@@ -130,8 +117,7 @@ flowchart LR
 # Esta de aqui es mi propuesta:
 ![Vista previa del juego](ElianaIphoneMockup.png)
 
-Meet Eliana AI:
-![Vista previa del juego](structure.jpg)
+
 🌟 Your next Business Assistant AI Companion
 
 *Su principal objetivo es Ayudarte a lograr 3 "Objetivos" ("Metas", "Proyectos", "Sueños", "Crisis",etc) y mantenerte enfocado hasta llevarlos a Victorioso Logro 
@@ -142,14 +128,11 @@ Meet Eliana AI:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tu-usuario/eliana-mendez/pulls)
 
-<p align="center">
-  <img src="https://ejemplo.com/ruta-a-tu-logo.png" width="300" alt="Logo Eliana AI">
-</p>
 
 ## 🚀 Visión del Proyecto
-Eliana AI es un *asistente de IA* que combina múltiples APIs gratuitas para lograr 3 Objetivos Especificos ( Customizables por el Usuario):
+Un *asistente de IA* que combine múltiples APIs gratuitas para lograr 3 Objetivos Especificos ( Customizables por el Usuario):
 Estructurados en base a 3 Areas de vida personal: 
-El Código de eliana lleva por dentro (Hardcoded) to insist you into dividing your 3 main pain points. 
+El Código de que lleva por dentro (Hardcoded) to insist you into dividing your 3 main pain points. 
 Order by:
 
 1. *Mental*: Planificación de objetivos con GPT-4o/Gemini.
@@ -163,27 +146,21 @@ Order by:
 ---
 
 
-## 🔍 Demo (Opcional)
-[![Demo en Vercel](https://img.shields.io/badge/Demo-Live-green)](https://eliana-mendez.vercel.app)
 
 
 ## 🛠 Tecnologías y APIs Usadas
 | Categoría       | Tecnologías/APIs                                                                 |
 |-----------------|----------------------------------------------------------------------------------|
-| *Backend*     | Python (FastAPI/Flask), Node.js                                                  |
+| *Backend*     | Python (FastAPI/Flask), Node.js  ,   Express.js                                    |
 | *Frontend*    | React/Next.js, TailwindCSS                                                       |
 | *APIs de IA*  | OpenAI (GPT-4o), Anthropic Claude, Google Gemini, Hugging Face, ElevenLabs, etc. |
 | *Base de Datos*| Supabase (gratis), Firebase                                                      |
 | *Otros*       | Twilio (SMS), SerpAPI (eventos), Replicate (Stable Diffusion)                    |
 
 
-El objetivo 
-El objetive
-El objetivo 
-El objetivo es que veas tu vida como un ecosistema donde todas las áreas se apoyan mutuamente, no como compartimentos separados que compiten por tu atención.
-El sistema de The Life Book con las 12 áreas de bienestar es excelente para crear esa coherencia que buscamos,
 
-Intro
+
+
 3
 /
 3
